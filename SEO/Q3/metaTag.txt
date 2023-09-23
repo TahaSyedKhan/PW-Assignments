@@ -1,0 +1,7 @@
+Using meta tags in HTML can provide several benefits, primarily for improving a website's search engine optimization (SEO) and enhancing the user experience.
+
+Improved SEO: Meta tags, especially the title and meta description tags, play a crucial role in SEO.
+
+Social Media Sharing: Open Graph meta tags and Twitter Card meta tags enable you to control how your content appears when shared on social media platforms like Facebook and Twitter.
+
+Accessibility: The meta "viewport" tag is essential for creating a responsive design and ensuring your website looks good on various devices and screen sizes. It contributes to a better user experience, which can positively impact SEO and user engagement.
