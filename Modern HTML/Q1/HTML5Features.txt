@@ -1,0 +1,17 @@
+HTML5 is the fifth and most widely used version of HTML for creating web pages. Some of its features include:
+
+Canvas element: Allows users to draw graphics or images using JavaScript
+
+Video and audio tags: Allow developers to embed video or audio on their website
+
+Header element: Can be used to group together introductory elements on a website, such as a company logo, navigation items, and sometimes, a search form 
+
+Footer tag: Used to define the footer of a document or a section 
+
+Local storage: Allows developers to create web applications that work offline and still retain the user's data when they reconnect to the internet
+
+Semantic markup: Provides search engines with more information about the structure of a web page
+
+Drag and drop: Allows for drag-and-drop interaction with the user
+ 
+HTML5 also has short and crisp syntax and improved security features.

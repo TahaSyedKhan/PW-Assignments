@@ -1,0 +1,7 @@
+ Here are some key practices and techniques for improving Accessibility:
+
+ 1. Use Semantic HTML Elements LIke <header> , <nav>, <main>, <article>, <section> and <footer>
+
+ 2. Add Alternative Text to Images.
+
+ 3. Use ARIA Roles and Attributes

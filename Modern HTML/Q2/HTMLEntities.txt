@@ -1,0 +1,11 @@
+A character entity is a construct that references a character in a document's character set. Here are some examples of HTML entities: 
+
+ampersand: &amp;
+
+less than: &lt;
+
+greater than: &gt;
+
+registered trademark: &reg;
+
+copyright: &copy;
