@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- External css Has the lowest priority
+    External styles are defined within the <link> element, inside the <head> section of an HTML page: -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Internal CSS has the second highest priority in CSS.
+    The internal style is defined inside the <style> element, inside the head section. -->
+    <style>
+        h1 {
+            color: blue;
+        }
+    /* Here div 1 will have internal css 
+    External css will not effect it*/
+        .child1 {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- we have inline css with heighest priority of all css styles 
+    Inline styles are defined within the "style" attribute of the relevant element:-->
+    <div>
+        <!-- here h1 will have color green because of inline css -->
+        <h1 style="color: green; text-align: center;">Three Ways to Insert CSS.</h1>
+    </div>
+    <div class="child child1">1</div>
+    <br>
+    <div class="child">2</div>
+</body>
+</html>
