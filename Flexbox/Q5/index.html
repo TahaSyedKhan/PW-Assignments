@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d56d46294f.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        li {
+            list-style-type: none;
+        }
+        .nav-logo {
+            position: absolute;
+            width: 166px;
+            height: 80px;
+            top: 50px;
+            left: 100px;
+        }
+        .logo1 {
+            position: absolute;
+            width: 66px;
+            height: 80px;
+            top: 50px;
+            left: 100px;  
+        }
+        .logo2 {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            top: 50px;
+            left: 186px;   
+        }
+        .nav-buttons {
+            display: flex;
+            width: 317px;
+            height: 38px;
+            position: absolute;
+            top: 93px;
+            left: 393px;
+            gap: 20px;
+        }
+        .nav-button {
+            background-color:  #FFFFFF;
+            padding: 10px 15px 10px 15px;
+            border: 1px solid #333333;
+            border-radius: 5px;
+        }
+        .login {
+            background-color: #FB792B;
+            color: #ffffff;
+        }
+        .nav-text {
+            display: flex;
+            position: absolute;
+            top: 50px;
+            left: 467px;
+            gap: 25px;
+        }
+        .text {
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18.15px;
+            align-items: center;
+        }
+        .header-tile {
+            position: absolute;
+            width: 432px;
+            height: 117px;
+            top: 220px;
+            left: 100px;
+        }
+        .tittles {
+            display: flex;
+            width: 432px;
+            height: 39px;
+            gap: 20px;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 38.73px;
+        }
+        .safety {
+            color: #01BB0A;
+        }
+        .security {
+            color: #FB792B;
+        }
+        .punctuality {
+            color: #213D77;
+        }
+        .images {
+            position: absolute;
+            width: 710px;
+            height: 1040px;
+        }
+        .image1 {
+            position: absolute;
+            width: 710px;
+            height: 520px;
+            left: 730px;
+        }
+        .image2 {
+            position: absolute;
+            width: 710px;
+            height: 520px;
+            top: 520px;
+            left: 730px;
+        }
+        .sub-buttons {
+            display: flex;
+            position: absolute;
+            width: 595px;
+            height: 44px;
+            top: 417px;
+            left: 100px;
+            gap: 20px;
+        }
+        .sub-buttons-button {
+            width: 176px;
+            height: 44px;
+            background-color:  #FFFFFF;
+            border: 1px solid #333333;
+            border-radius: 5px;
+            padding: 10px 15px 10px 15px;
+        }
+        .train {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18.15px;
+            opacity: 80%;
+        }
+        .place {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 30.26px;
+        }
+        .place-code {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18.15px;
+            opacity: 80%;
+        }
+        .from {
+            position: absolute;
+            width: 37px;
+            height: 18px;
+            top: 531px;
+            left: 162px;
+        }
+        .ahmedabad {
+            position: absolute;
+            width: 149px;
+            height: 30px;
+            top: 553px;
+            left: 162px;
+        }
+        .train-img1 {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            top: 556px;
+            left: 120px;
+        }
+        .from-to {
+            position: absolute;
+            width: 48px;
+            height: 48px;
+            top: 545px;
+            left: 381px;
+            border-radius: 50px;
+        }
+        .trian-img2 {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            top: 552px;
+            left: 449px;
+        }
+        .JN {
+            position: absolute;
+            width: 170px;
+            height: 18px;
+            top: 588px;
+            left: 162px;
+    }
+        .to {
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            top: 531px;
+            left: 497px;
+        }
+        .dehli {
+            position: absolute;
+            width: 74px;
+            height: 30px;
+            top: 553px;
+            left: 497px;
+        }
+        .DLI {
+            position: absolute;
+            width: 121px;
+            height: 18px;
+            top: 588px;
+            left: 497px;
+        }
+        .date {
+            position: absolute;
+            width: 34px;
+            height: 18px;
+            top: 666px;
+            left: 162px;
+        }
+        .calender {
+            position: absolute;
+            width: 32px;
+            height: 31.83px;
+            top: 686.37px;
+            left: 120px;
+        }
+        .calender-date {
+            position: absolute;
+            width: 124px;
+            height: 30px;
+            top: 688px;
+            left: 162px;
+        }
+        .day {
+            position: absolute;
+            width: 60px;
+            height: 18px;
+            top: 723px;
+            left: 162px;
+        }
+        .class {
+            position: absolute;
+            width: 39px;
+            height: 18px;
+            top: 666px;
+            left: 372px;
+        }
+        .class-img {
+            position: absolute;
+            width: 32px;
+            height: 31.83px;
+            top: 681.4px;
+            left: 320px;
+        }
+        .classA {
+            position: absolute;
+            width: 36px;
+            height: 30px;
+            top: 688px;
+            left: 372px;
+        }
+        .seat {
+            position: absolute;
+            width: 67px;
+            height: 18px;
+            top: 723px;
+            left: 372px;
+        }
+        .search-train {
+            position: absolute;
+            width: 610px;
+            height: 80px;
+            top: 800px;
+            left: 100px;
+            background-color: #01BB0A;
+            color: #ffffff;
+            border: 1px solid #333333;
+            border-radius: 10px;
+            font-weight: 900;
+            font-size: 25px;
+            align-items: center;
+        }
+        .seat-img {
+            position: absolute;
+            width: 32px;
+            height: 31.83px;
+            top: 683.39px;
+            left: 520px;
+        }
+        .seat-type {
+            position: absolute;
+            width: 72px;
+            height: 18px;
+            top: 666px;
+            left: 568px;
+        }
+        .seat-text {
+            position: absolute;
+            width: 98px;
+            height: 30px;
+            top: 688px;
+            left: 568px;
+        }
+        .seatAC {
+            position: absolute;
+            width: 67px;
+            height: 18px;
+            top: 723px;
+            left: 568px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logos">
+                <img src="./logo/image 5.png" alt="" class="logo1">
+                <img src="./logo/image 6.png" alt="" class="logo2">
+            </div>
+            <div class="nav-text">
+                <p class="text">Ask Disha</p>
+                <p class="text">Contact Us</p>
+                <p class="text">Alerts</p>
+            </div>
+            <div class="nav-buttons">
+                <button class="nav-button login">Login</button>
+                <button class="nav-button">Register</button>
+                <button class="nav-button">Agent Login</button>
+            </div>
+        </nav>
+        <div class="header-tile">
+            <h1>Indian Railways</h1>
+            <div class="tittles">
+                <p class="safety">Safety</p>
+                <p class="security">Security</p>
+                <p class="punctuality">Punctuality</p>
+            </div>
+        </div>
+    </header>
+    <div class="sub-buttons">
+            <button class="sub-buttons-button"><i class="fa-solid fa-ticket"></i> Book Ticket</button>
+            <button class="sub-buttons-button"><i class="fa-solid fa-check"></i> PNR Status</button>
+            <button class="sub-buttons-button"> <i class="fa-solid fa-square-poll-vertical"></i> Charts / Vacency</button>
+    </div>
+
+        <div class="from">
+            <p class="train">form</p>
+        </div>
+        <div class="train-img1">
+            <img src="./ic-search-from-desktop.png" alt="">
+        </div>
+        <div class="ahmedabad">
+            <p class="place">Ahmedabad</p>
+        </div>
+        <div class="JN">
+            <p class="place-code">JN - ADI (AHMEDABAD)</p>
+        </div>
+        <div class="from-to">
+            <img src="./sync_alt_FILL0_wght300_GRAD0_opsz48 1.png" alt="">
+        </div>
+        <div class="to">
+            <p class="train">To</p>
+        </div>
+        <div class="trian-img2">
+            <img src="./ic-search-to-desktop.png" alt="">
+        </div>
+        <div class="dehli">
+            <p class="place">DELHI</p>
+        </div>
+        <div class="DLI">
+            <p class="place-code">DLI (NEW DEHLI)</p>
+        </div>
+
+    <div class="date">
+        <p class="train">Date</p>
+    </div>
+    <div class="calender">
+        <img src="./ic-search-calender-desktop.png" alt="">
+    </div>
+    <div class="calender-date">
+        <p class="place">01 AUg 23</p>
+    </div>
+    <div class="day">
+        <p class="place-code">Tuesday</p>
+    </div>
+    <div class="class">
+        <p class="place-code">class</p>
+    </div>
+    <div class="class-img">
+        <img src="./group_work_FILL0_wght200_GRAD0_opsz48 1.png" alt="">
+    </div>
+    <div class="classA">
+        <p class="place">3A</p>
+    </div>
+    <div class="seat">
+        <p class="place-code">AC 3 Tier</p>
+    </div>
+    <div class="seat-img">
+        <img src="./widgets_FILL0_wght200_GRAD0_opsz48 1.png" alt="">
+    </div>
+    <div class="seat-type">
+        <p class="place-code">Seat Type</p>
+    </div>
+    <div class="seat-text">
+        <p class="place">TATKAL</p>
+    </div>
+    <div class="seatAC">
+        <p class="place-code">AC 3 Tier</p>
+    </div>
+    <section class="images">
+            <img src="./image/Rectangle 11.png" alt="" class="image1">
+            <img src="./image/Rectangle 10.png" alt="" class="image2">
+    </section>
+    <button class="search-train">Search Train</button>
+</body>
+</html>

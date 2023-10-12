@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d56d46294f.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #ffffff;
+        }
+        .pricing {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            gap: 32px;
+        }
+        .plans {
+            width: 262px;
+            height: 363px;
+            padding: 32px;
+            border-radius: 8px;
+        }
+    .plan1 {
+        background-color: #f0eef9;
+        color: #202842;
+    }
+    .plan2 {
+        background-color: #202842;
+        color: #f0eef9;
+    }
+    .plan3 {
+        background-color: #f0eef9;
+        color: #202842;
+    }
+    .plan-type {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .plan {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .price {
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .plan1-3 {
+        background-color: #202842;
+        color: #f0eef9;
+        margin: 10px;
+        padding: 8px 24px 8px 24px;
+        border-radius: 50px;
+     }
+     .plan2-2 {
+        background-color: #f0eef9;
+        color: #202842;
+        margin: 10px;
+        padding: 8px 24px 8px 24px;
+        border-radius: 50px;
+     }
+    li {
+        list-style-type: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+    </style>
+</head>
+<body>
+    <div class="pricing">
+        <div class="plans plan1">
+            <p class="plan-type">Free Plan</p>
+            <p class="plan">For Personal</p>
+            <p class="price">$0</p>
+            <br>
+            <ul>
+                <li><i class="fa-solid fa-circle-check"></i> 1 user</li>
+                <li><i class="fa-solid fa-circle-check"></i> 4 web mails</li>
+                <li><i class="fa-solid fa-circle-check"></i> Responsive Website</li>
+                <li><i class="fa-solid fa-circle-check"></i> Free SSL</li>
+            </ul>
+            <button class="plan1-3">Subscribe now</button>
+        </div>
+        <div class="plans plan2">
+            <p  class="plan-type">Basic Plan</p>
+            <p class="plan">For small business</p>
+            <p class="price">$29</p>
+            <br>
+            <ul>
+                <li><i class="fa-sharp fa-regular fa-circle-check"></i> 4 users</li>
+                <li><i class="fa-sharp fa-regular fa-circle-check"></i> 10 web mails</li>
+                <li><i class="fa-sharp fa-regular fa-circle-check"></i> Responsive Website</li>
+                <li><i class="fa-sharp fa-regular fa-circle-check"></i> Free SSL</li>
+            </ul>
+            <button class="plan2-2">Subscribe now</button>
+        </div>
+        <div class="plans plan3">
+            <p  class="plan-type">Pro Plan</p>
+            <p class="plan">For enterprise</p>
+            <p class="price">$49</p>
+            <br>
+            <ul>
+                <li><i class="fa-solid fa-circle-check"></i> Unlimited users</li>
+                <li><i class="fa-solid fa-circle-check"></i> Unlimited web mails</li>
+                <li><i class="fa-solid fa-circle-check"></i> Responsive Website</li>
+                <li><i class="fa-solid fa-circle-check"></i> Free SSL + SEO</li>
+            </ul>
+            <button class="plan1-3">Subscribe now</button>
+        </div>
+    </div>
+</body>
+</html>

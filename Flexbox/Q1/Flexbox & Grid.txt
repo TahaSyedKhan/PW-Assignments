@@ -1,0 +1,9 @@
+Flexbox: 
+
+Flexbox is primarily designed for one-dimensional layouts.
+It excels at aligning elements along a single axis, making it suitable for centering items horizontally or vertically in a container.
+
+Grid:
+
+CSS Grid is designed for two-dimensional layouts, allowing you to define both rows and columns explicitly.
+It provides control over the placement of items both horizontally and vertically, allowing you to create complex grid structures.

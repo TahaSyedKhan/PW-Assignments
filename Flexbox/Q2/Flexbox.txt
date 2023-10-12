@@ -1,0 +1,10 @@
+
+1. Justify-content:  This property is used to align items along the main axis (horizontally in a row layout or vertically in a column layout). Values like flex-start, flex-end, center, space-between, and space-around control how items are distributed.
+
+2.  align-items:  It aligns items along the cross-axis (opposite to the main axis). Common values include flex-start, flex-end, center, stretch, and others.
+
+3. gap: is used to define spacing between flex items.
+
+4. flex-direction:  It defines the main axis direction and can be set to row, row-reverse, column, or column-reverse.
+
+5. flex-wrap: Determines whether items wrap to a new line when they can't fit within the container. Values include nowrap, wrap, and wrap-reverse.
