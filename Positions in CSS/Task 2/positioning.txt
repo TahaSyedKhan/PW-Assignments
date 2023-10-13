@@ -1,0 +1,9 @@
+1. Absolute Positioning:
+
+Absolute positioning is a CSS property that allows you to place an element within a containing element relative to a specified ancestor or the viewport itself.
+When you use absolute positioning, the element is removed from the normal flow of the document. This means that other elements do not consider the absolutely positioned element when determining their positions.
+
+2. Relative Positioning:
+
+Relative positioning is another CSS property that allows you to adjust the position of an element relative to its normal position in the document flow.
+When you use relative positioning, the element is not removed from the normal flow of the document. It retains its original space, and the surrounding elements are not affected by its positioning.
