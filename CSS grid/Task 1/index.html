@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: grid;
+            grid-template-areas: 
+            "img1 img1 img2"
+            "img3 img4 img5";
+            gap: 25px;
+            padding: 10px;
+        }
+        .container img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+        .container-img1 {
+            grid-area: img1;
+        }
+         .container-img2 {
+            grid-area: img2;
+         }
+          .container-img3 {
+            grid-area: img3;
+          }
+           .container-img4 {
+            grid-area: img4;
+           }
+            .container-img5 {
+                grid-area: img5;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="container-img1">
+        <img src="https://images.pexels.com/photos/7209396/pexels-photo-7209396.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="img1">
+        </div>
+
+        <div class="container-img2">
+        <img src="https://images.pexels.com/photos/16933826/pexels-photo-16933826/free-photo-of-black-and-white-shot-of-a-vintage-car-on-a-tropical-town-street.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="img2">
+        </div>
+
+        <div class="container-img3">
+        <img src="https://images.pexels.com/photos/18509188/pexels-photo-18509188/free-photo-of-cute-kid.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="img3">
+        </div>
+
+        <div class="container-img4">
+        <img src="https://images.pexels.com/photos/18687546/pexels-photo-18687546/free-photo-of-a-green-surfboard-on-a-wooden-pier-overlooking-the-ocean.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="img4">
+        </div>
+
+        <div class="container-img5">
+        <img src="https://images.pexels.com/photos/12142716/pexels-photo-12142716.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="img5">
+        </div>
+
+    </div>
+</body>
+</html>

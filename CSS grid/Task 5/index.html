@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* justify-items property aligns grid items along the row (inline) axis. It allows you to set alignment for items inside a grid container in a specific position */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+        /* justify-self is used to set how an individual grid item positions itself along the row/inline axis. */
+        .item1 {
+            justify-self: baseline;
+        }
+        .container div {
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+    </div>
+</body>
+</html>
