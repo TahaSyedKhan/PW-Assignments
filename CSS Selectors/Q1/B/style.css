@@ -1,0 +1,12 @@
+ li a {
+    color: red;
+}
+
+nav > h2 {
+    color: white;
+    background-color: black;
+}
+
+div + p {
+    color: red;
+}

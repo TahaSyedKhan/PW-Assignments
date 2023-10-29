@@ -1,0 +1,10 @@
+p:last-of-type::after{
+    content: "...";
+}
+li::marker {
+    color: red;
+}
+p:nth-last-of-type(2)::first-letter {
+    color: red;
+    font-size: 30px;
+}
