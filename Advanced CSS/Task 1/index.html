@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            --primary-color: #00b7ff;
+            --secondary-color: #6c757d;
+        }
+        /* The var() function is used to insert the value of a CSS variable. */
+
+        /* purpose
+        makes the code easier to read (more understandable)
+        makes it much easier to change the color values */
+        #primaryBtn {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            border: none;
+        }
+        #secondaryBtn {
+            background-color: var(--secondary-color);
+            color: #ffffff;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="primaryBtn">Primary Button</button>
+    <button id="secondaryBtn">Secondary Button</button>
+</body>
+</html>
